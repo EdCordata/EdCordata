@@ -1,0 +1,8 @@
+services:
+  md-to-pdf:
+    build:
+      dockerfile: '.docker/md-to-pdf/Dockerfile'
+      context:    '.'
+    working_dir: '/data'
+    volumes:
+      - './doki:/data'
