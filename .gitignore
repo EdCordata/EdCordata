@@ -1,0 +1,11 @@
+# IDE
+/.vs/
+/.idea/
+/.atom/
+/.vscode/
+/*.sublime-project
+/*.sublime-workspace
+
+# AI
+/.ai/
+/.claude/
